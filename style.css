@@ -405,3 +405,19 @@ main{
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
+i:hover{
+    color: rgb(75, 70, 70);
+    filter: drop-shadow(0 8px 15px #888);
+    -webkit-filter: drop-shadow(0 8px 15px #888);
+    animation: rotate 3s 2s;
+    -webkit-animation: rotate 3s;
+}
+
+@keyframes rotate {
+    from{
+        rotate: 0deg;
+    }
+    to{
+        rotate: 360deg;
+    }
+}

@@ -158,15 +158,18 @@ main{
     -ms-border-radius: 12px;
     -o-border-radius: 12px;
     color: white;
-    cursor: pointer;
 }
-
-.stack-item i:hover{
-    color: rgb(75, 70, 70);
+i:hover{
+    color: rgb(251, 251, 251);
     filter: drop-shadow(0 8px 15px #888);
     -webkit-filter: drop-shadow(0 8px 15px #888);
-    animation: rotate 3s 2s;
-    -webkit-animation: rotate 3s;
+    animation: rotate .2s;
+    -webkit-animation: rotate .2s;
+    transition: all ease-in-out .2ms;
+    -webkit-transition: all ease-in-out .2ms;
+    -moz-transition: all ease-in-out .2ms;
+    -ms-transition: all ease-in-out .2ms;
+    -o-transition: all ease-in-out .2ms;
 }
 
 @keyframes rotate {
@@ -188,6 +191,19 @@ main{
     -ms-border-radius: 12px;
     -o-border-radius: 12px;
 }
+.stack-item img:hover{
+    color: rgb(75, 70, 70);
+    filter: drop-shadow(0 8px 15px #888);
+    -webkit-filter: drop-shadow(0 8px 15px #888);
+    animation: rotate .2s;
+    -webkit-animation: rotate .2s;
+    transition: all ease-in-out .2s;
+    -webkit-transition: all ease-in-out .2s;
+    -moz-transition: all ease-in-out .2s;
+    -ms-transition: all ease-in-out .2s;
+    -o-transition: all ease-in-out .2s;
+}
+
 
 .left-bottom{
     grid-area: left-bottom;
@@ -423,5 +439,3 @@ main{
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
-
-

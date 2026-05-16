@@ -158,6 +158,7 @@ main{
     -ms-border-radius: 12px;
     -o-border-radius: 12px;
     color: white;
+    cursor: pointer;
 }
 
 .stack-item i:hover{
